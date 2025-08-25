@@ -1,0 +1,92 @@
+==========================CLI  Git And Git HUb================================
+*****powershell*****
+$ ls ==list
+$ CD ==Change directory 
+$ note:- if file name is included with space then write as srting ""
+
+$ ctrl+L== for cleare terminal 
+
+$ mkdir (file name ) == create folder
+
+$ rm (file path or file name ) == remove this will remove file permently
+
+$ code . == this command is used for open file in vs code
+
+$ pwd == print path 
+
+
+
+
+
+
+
+
+
+*************** Git Bash ****************
+
+mkdir (file name ) == create folder
+
+$ mv 'old file name' 'latest file name'= this command used for change file name 
+$ mv 'file name' 'file path' = if you want move your file to one folder to another also use same command
+
+$ touch == with  this command we create multiple files
+
+$ git init == this we will create for repository 
+
+$ git add . == this will stanging mode ,this will be we used to track changes inside code from folder all files we track.
+
+$ git add 'file name' == this will only track for file changes that selected
+
+$ git status == this will help to fined which file is in stanging and which not like
+
+$ git commite ==  this will used to change to new working code.
+
+$ git commite -m 'print message'== this will be used to note which why we made changes to add reasons 
+
+$git log == this will show who is commited and also show time and message
+
+$ git branch == this will show how many branches are there
+
+$ git branch "branch name" == this will create new branch
+
+$ git branch -- delete about == this will be use when we need to delete branch
+ note = before deleting this branch we need to merge first and also we need to change current branch if we are in same branch
+
+$ git merge 'branch name' == We mege two branches like this
+
+
+…or create a new repository on the command line
+echo "# Learning-git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Aniruddha17112002/Learning-git.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Aniruddha17112002/Learning-git.git
+git branch -M main
+git push -u origin main
+
+
+$ git pull == this will be used to get code changed from github or anyohter develper to get inside our local repo
+
+$ git log --oneline --all --graph == this will show git graph of how commits are happens
+
+$ git reflog ==  this will show all deleted ids also
+
+$ git reset --hard 94b7c54 == this will used for hard delete
+
+$ git stash ==
+
+$ git stash clear==
+
+$ git stash drop1==
+
+
+************** .gitignore  file ************************
+whenevere if we dont want push any file or folder we use this file.
+first we creare this file then add which file you want to ignore inside this.
+If your file is already pushed in git then first remove it then clear cache then this file not will be track.
